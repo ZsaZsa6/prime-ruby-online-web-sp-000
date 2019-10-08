@@ -4,9 +4,9 @@ def prime?(n)
   elsif n == 2
     true
   end
-  until Integer.sqrt(n)%(2...Integer.sqrt(n))== 0
+  until Integer.sqrt(n)%(2...Integer.sqrt(n)) == 0
     true
-  Integer.sqrt(n)%(2...Integer.sqrt(n))!= 0
+  Integer.sqrt(n)%(2...Integer.sqrt(n)) != 0
     true
   end
 end
