@@ -3,7 +3,7 @@ def prime?(n)
   #   false
   # elsif n == 2
   #   true
-    if n.sqrt % (2...n.sqrt) == 0
+    if n.sqrt %(2...n.sqrt) == 0
       false
   elsif n.sqrt %(2...n.sqrt) != 0
     true
