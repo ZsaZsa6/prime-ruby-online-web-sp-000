@@ -1,8 +1,22 @@
-def prime?(i)
-  if i >= 2
-  elsif i % 2 == 0
-    false
-  else i % 2 != 0
+def prime?(n)
+  # if n <= 1
+  #   false
+  # elsif n == 2
+  #   true
+    if n.sqrt % (2...n.sqrt) == 0
+      false
+  elsif n.sqrt %(2...n.sqrt) != 0
+    true
   end
 end
-# && i/3   && i/5 && i/7 && i/11
+
+# def prime?(i)
+#   if i <= 1
+#     return false
+#   elsif i == 2
+#     return true
+#     possible_primes = []
+#   else i.odd? do
+#       possible_primes << (i)
+#       possible_primes.map! {|i| 1 % 2 == 0 && i % 3 }
+#   end
